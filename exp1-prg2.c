@@ -7,6 +7,7 @@ int main(){
     distInFT = distInKM *  3281;
     distInIN = distInFT * 12;
 
-    print
+    printf("the distance between is: %d in km, %d in cm, %d in feet and %d in inches",distInKM,distInCM,distInFT,distInIN);
     return 0;
+    //16010124155
 }
