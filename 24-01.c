@@ -52,5 +52,14 @@ printf("Factorial is: %d",fac);
 */
 
 
+/* prints n numbers
+int n, i;
+printf("enter number: ");
+scanf("%d", &n);
+for(i = 0;i <= n;i++){
+    printf("<%d>",i);
+}
+*/
+
 
 }
