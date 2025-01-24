@@ -72,28 +72,28 @@ int main()
 //     }
 
 
-     char letter;
-     printf("enter: ");
-     scanf("%c",&letter);
-     switch(letter){
-     case 'a':
-          printf("vowel is a");
-          break;
-     case 'e':
-          printf("vowel is e");
-          break;
-     case 'i':
-          printf("vowel is i");
-          break;
-     case 'o':
-          printf("vowel is o");
-          break;
-     case 'u':
-          printf("vowel is u");
-          break;
-     default:
-          printf("not a vowel");
-     }
+//     char letter;
+//     printf("enter: ");
+//     scanf("%c",&letter);
+//     switch(letter){
+//     case 'a':
+//          printf("vowel is a");
+//          break;
+//     case 'e':
+//          printf("vowel is e");
+//          break;
+//     case 'i':
+//          printf("vowel is i");
+//          break;
+//     case 'o':
+//          printf("vowel is o");
+//          break;
+//     case 'u':
+//          printf("vowel is u");
+//          break;
+//     default:
+//          printf("not a vowel");
+//     }
 
 
 
