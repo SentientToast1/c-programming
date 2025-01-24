@@ -61,5 +61,16 @@ for(i = 0;i <= n;i++){
 }
 */
 
+int range;
+printf("enter range: ");
+scanf("%d",&range);
 
+int fib1 = 0, fib2 = 1, fib3 = 0, i = 0;
+printf("0 1 ");
+for(i = 0; i <= range-3; i++){
+    fib3 = fib2 + fib1;
+    fib1 = fib2;
+    fib2 = fib3;
+    printf("%d ",fib3);
+}
 }
