@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main(){
 
-/*
+/* prints table of 2
 int i,n;
 printf("enter range: ");
 scanf("%d",&n);
@@ -14,7 +14,7 @@ while(i <= n){
 }
 */
 
-/*
+/* prints sum of digits
 int num,sum;
 printf("Enter number: ");
 scanf("%d",&num);
@@ -25,6 +25,18 @@ while(num>0){
 }
 printf("the sum is: %d",sum);
 */
+
+
+int i,n;
+printf("enter range: ");
+scanf("%d",&n);
+i = 2;
+printf("%d",i);
+do{
+    printf(" %d",i*2);
+
+    i= i + 1;
+}while(i <= n);
 
 
 }
