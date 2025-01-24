@@ -26,7 +26,7 @@ while(num>0){
 printf("the sum is: %d",sum);
 */
 
-
+/* print table of 2 but this time with do-while
 int i,n;
 printf("enter range: ");
 scanf("%d",&n);
@@ -37,6 +37,20 @@ do{
 
     i= i + 1;
 }while(i <= n);
+*/
+
+/* finds factorial using while
+int fac,num;
+printf("Enter number: ");
+scanf("%d", &num);
+fac = 1;
+while(num > 0){
+    fac = fac * num;
+    num--;
+}
+printf("Factorial is: %d",fac);
+*/
+
 
 
 }
