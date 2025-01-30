@@ -6,7 +6,7 @@ void main(){
     scanf("%d",&yearCurrent);
     printf("Enter year joined: ");
     scanf("%d", &yearJoined);
-    yearsPresent = yearCurrent - yearJoined;
+    yearsPresent = yearCurrent - yearJoined + 1;
     if(yearsPresent < 3){
         salary = 1000;
     }
@@ -20,4 +20,5 @@ void main(){
         salary = 10000;
     }
     printf("Your salary will be: %d",salary);
+    //16010124155
 }
